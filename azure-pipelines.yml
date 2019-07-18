@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: echo Hello, this is coming from the code editor!
-  displayName: 'Run a one-line script'
+  displayName: 'Run a First script'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
