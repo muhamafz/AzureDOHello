@@ -23,7 +23,8 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      srcclr scan --image cool:latest
+      which srcclr
+     # srcclr scan --image cool:latest
 #      echo 'Hello world'
 #- task: Bash@3
 #  inputs:
