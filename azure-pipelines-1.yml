@@ -24,3 +24,4 @@ steps:
         # Write your commands here
         
         echo 'Hello world inline script'
+        'curl -sSL https://download.sourceclear.com/ci.sh | bash -s scan --image centos:7'
